@@ -1,0 +1,13 @@
+h1{
+    background: black;
+    text-align: center;
+    border: 30px;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+p{
+    text-align: center;
+    font-family: 'Tapestry', cursive;
+    font-size: 30px;
+}
