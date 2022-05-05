@@ -1,34 +1,53 @@
 :root{
-
+--primary-color: #C6AC9D;
+--secondary-color:#4CCBB8;
+--box-shadow:0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.portfolio{
+    background-color: #242328;
 }
 h1  {
     font-family: 'Roboto', sans-serif;
     font-size: 60px;
-    color: #C6AC9D;
+    color: var(--primary-color);
 }
 h2{
     font-family: 'Tapestry', cursive;
     font-size: 50px;
-    color: #4CCBB8;
+    color: var(--secondary-color);
 }
 .hero {
     background: #242328;
     text-align: center;
     padding: 160px 0;
+    margin-top: -30px;
     
 }
-p{
-  color: #C6AC9D; 
+.hero p{
+  color: var(--primary-color); 
    font-family: 'Roboto', sans-serif;
    font-size: 30px;
    margin: 0;
 }
-.btn.btn-branding {
-    display: block;
-    color: white;
-    padding: 12px 20px;
-    border: 15px;
-    border-radius: 4px;
-    font-size: 18px;
-    line-height: 27px;
+p{
+    color: aliceblue;
+}
+
+    .primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.social-links a {
+    margin: 0 20px;
+    padding: 15px 24px;
+    font-size: 25px;
+    border-radius: 50px;
+}
+footer{
+    padding-top: 100px;
 }
