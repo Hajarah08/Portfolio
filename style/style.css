@@ -49,5 +49,6 @@ p{
     border-radius: 50px;
 }
 footer{
-    padding-top: 100px;
+    display: block;
+    margin: 10px 30px;
 }
