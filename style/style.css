@@ -52,3 +52,32 @@ footer{
     display: block;
     margin: 10px 30px;
 }
+@media(max-width: 900px) {
+    h1{
+        font-size: 44px;
+        line-height: 2;
+    }
+    h2{
+        font-size: 44px;
+    }
+    .about-section{
+        text-align: center;
+        padding: 0;
+    }
+    .about-section-content{
+        
+    }
+}
+.about-section{
+    padding: 160px 0px;
+}
+.about-section-content{
+    margin: 30px;
+}
+.about-section p{
+    font-family: 'Roboto', sans-serif;
+   font-size: 20px;
+   line-height: 2;
+    color: aliceblue;
+    
+}
