@@ -16,6 +16,9 @@ h2{
     font-size: 50px;
     color: var(--secondary-color);
 }
+h3{
+    color: aliceblue;
+}
 .hero {
     background: #242328;
     text-align: center;
@@ -60,21 +63,21 @@ footer{
     h2{
         font-size: 44px;
     }
-    .about-section{
+    .content{
         text-align: center;
         padding: 0;
     }
-    .about-section-content{
-        
+    .content-container{
+
     }
 }
-.about-section{
+.content-container{
     padding: 160px 0px;
 }
-.about-section-content{
-    margin: 30px;
+.content{
+    margin:30px;
 }
-.about-section p{
+.content p{
     font-family: 'Roboto', sans-serif;
    font-size: 20px;
    line-height: 2;
